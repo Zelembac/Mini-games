@@ -1,0 +1,28 @@
+// export const wordList = [
+//   { id: 0, name: "laza" },
+//   { id: 1, name: "mamina" },
+//   { id: 2, name: "maza" },
+//   { id: 3, name: "kamikaza" },
+//   { id: 4, name: "majmun" },
+//   { id: 5, name: "marmun" },
+//   { id: 6, name: "kada" },
+//   { id: 7, name: "kuca" },
+//   { id: 8, name: "dud" },
+//   { id: 9, name: "rad" },
+//   { id: 10, name: "nos" },
+//   { id: 11, name: "njuska" },
+// ];
+export const wordsList = [
+  "laza",
+  "mamina",
+  "maza",
+  "kamikaza",
+  "majmun",
+  "marmun",
+  "kada",
+  "kuca",
+  "dud",
+  "rad",
+  "nos",
+  "njuska",
+];

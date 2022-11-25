@@ -1,0 +1,127 @@
+.header{
+  background-color: rgb(34, 34, 67);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+}
+.main{
+  background-color: rgb(212, 212, 255);
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+  flex-direction: column;
+}
+.box{
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgb(34, 34, 67);
+  border-radius: 5px;
+}
+.number{
+  color: rgb(111, 111, 230);
+  font-size: x-large;
+  font-weight: 500;
+  height: 10%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form{
+  width: 60%;
+  height: 13%;
+  background-color: rgb(111, 111, 230);
+  color: rgb(239, 239, 239);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+.form input{
+  border: none;
+  border-radius: 5px;
+  height: 80%;
+}
+.form button{
+  border: rgb(170, 170, 234) solid ;
+    border-radius: 10px;
+    height: 80%;
+    width: 20%;
+
+}
+
+.lvlTimeBox{
+  background-color: rgb(111, 111, 230);
+  width: 30%;
+  height: 13%;
+  display: flex;
+align-items: center;
+justify-content: space-evenly;
+color: rgb(239, 239, 239);
+border-radius: 10px;
+}
+.lvlSide{
+  height: 100%;
+  width: 50%;
+  border-right: solid rgb(239, 239, 239) 2px;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+.timeSide{
+  height: 100%;
+  width: 50%;
+  display: flex;
+align-items: center;
+justify-content: center;
+  border-left: solid rgb(239, 239, 239) 2px;
+}
+.buttonBox{
+  width: 40%;
+  height: 15%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer{
+  background-color: rgb(34, 34, 67);
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+}
+  .notActive{
+    background-color: rgb(144, 144, 224);
+    color: rgb(239, 239, 239);
+    cursor: not-allowed;
+   pointer-events: none;
+
+  }
+  .active{
+    background-color: rgb(97, 97, 229);
+    color: rgb(239, 239, 239);
+  }
+  .homeLink{
+    background-color: rgb(111, 111, 230);
+    width: 10%;
+    height: 10%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+  border-radius: 5px;
+  }
+  

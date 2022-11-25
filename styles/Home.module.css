@@ -1,0 +1,70 @@
+
+.header{
+  background-color: rgb(34, 34, 67);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+}
+.main{
+  background-color: rgb(239, 239, 251);
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  flex-direction: column;
+}
+.footer{
+  background-color: rgb(34, 34, 67);
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+}
+.siteSinop{
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(69, 69, 145);
+  color: rgb(239, 239, 239);
+  font-size: x-large;
+  font-weight: 700;
+}
+.linkBox{
+  height: 60%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(212, 212, 255);
+}
+
+.elemet{
+  height: 45%;
+  width: 25%;
+  background-color: rgb(142, 142, 235);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  color: rgb(239, 239, 251);
+  justify-content: center;
+  margin-left: 1%;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  font-size: large;
+  font-weight: 400;
+  
+  
+  
+}
+
+

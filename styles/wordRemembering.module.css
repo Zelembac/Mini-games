@@ -1,0 +1,87 @@
+.header{
+  background-color: rgb(34, 34, 67);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+}
+.main{
+  background-color: rgb(212, 212, 255);
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  flex-direction: column;
+}
+.box{
+  width: 50%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgb(34, 34, 67);
+  border-radius: 5px;
+}
+.buttonBox{
+  width: 30%;
+  height: 15%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lvl{
+  background-color: rgb(111, 111, 230);
+  width: 15%;
+  height: 15%;
+  display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(239, 239, 239);
+border-radius: 5px;
+}
+.word{
+  color: rgb(111, 111, 230);
+  font-size: x-large;
+  font-weight: 500;
+  height: 10%;
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+  background-color: rgb(34, 34, 67);
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+}
+.notActive{
+  background-color: rgb(144, 144, 224);
+  color: rgb(239, 239, 239);
+  cursor: not-allowed;
+ pointer-events: none;
+
+}
+.active{
+  background-color: rgb(111, 111, 230);
+  color: rgb(239, 239, 239);
+}
+.homeLinks{
+  background-color: rgb(111, 111, 230);
+  width: 10%;
+  height: 10%;
+  display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(239, 239, 239);
+border-radius: 5px;
+}

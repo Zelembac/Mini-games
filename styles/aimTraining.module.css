@@ -1,0 +1,95 @@
+
+.header{
+  background-color: rgb(34, 34, 67);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+}
+.main{
+  background-color: rgb(212, 212, 255);
+  width: 100vw;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+  flex-direction: column;
+}
+.box{
+  width: 80%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgb(34, 34, 67);
+  border-radius: 5px;
+}
+.box button{
+  border-color: rgb(170, 170, 234);
+  border: solid;
+  border-radius: 10px;
+  width: 10%;
+  height: 10%;
+ 
+  
+}
+.targetCountBox{
+  color: rgb(239, 239, 239);
+}
+.footer{
+  background-color: rgb(34, 34, 67);
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+}
+.notActive{
+  background-color: rgb(144, 144, 224);
+  color: rgb(239, 239, 239);
+  cursor: not-allowed;
+ pointer-events: none;
+
+}
+.active{
+  background-color: rgb(111, 111, 230);
+  color: rgb(239, 239, 239);
+}
+  .targetBoard{
+    height: 55vh;
+    width: 70.5vw;
+    background-color: rgb(144, 144, 224);
+    color: rgb(239, 239, 239);
+    font-size: larger;
+    font-weight: 500;
+  }
+  .target{
+    background-color: rgb(239, 239, 239);
+    height: 15vh;
+    width: 7.5vw;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: larger;
+    color:rgb(34, 34, 67);
+  }
+  .homeLink{
+    background-color: rgb(111, 111, 230);
+    width: 10%;
+    height: 10%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+  border-radius: 5px;
+  }
+ 
+  

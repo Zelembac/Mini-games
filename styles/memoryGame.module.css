@@ -1,0 +1,128 @@
+.header{
+  background-color: rgb(34, 34, 67);
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+}
+  .main{
+    background-color: rgb(212, 212, 255);
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    flex-direction: column;
+  }
+  .box{
+    width: 50%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: rgb(34, 34, 67);
+    border-radius: 5px;
+  }
+  .board{
+    background-color:  rgb(142, 142, 235);
+    width: 50%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 0.3%;
+  }
+  .chosenShow{
+    background-color: rgb(239, 239, 251);
+    width: 22%;
+    height: 22%;
+    margin: 1%;
+    border: solid rgb(239, 239, 251) 2px;
+    color: rgb(239, 239, 251);
+    cursor: not-allowed;
+   pointer-events: none;
+   border-radius: 5px;
+  }
+  .chosenDontShow{
+    background-color:  rgb(142, 142, 235);
+    width: 22%;
+    height: 22%;
+    margin: 1%;
+    border: solid rgb(239, 239, 251) 2px;
+    color: rgb(142, 142, 235);
+    border-radius: 5px;
+  }
+  .notChose{
+    background-color:rgb(142, 142, 235) ;
+    width: 22%;
+    height: 22%;
+    margin: 1%;
+    border: solid rgb(239, 239, 251) 2px;
+    color: rgb(142, 142, 235);
+    border-radius: 5px;
+
+  }
+  .lvl{
+    background-color: rgb(111, 111, 230);
+    width: 15%;
+    height: 10%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+  border-radius: 5px;
+  }
+  .buttonBox{
+    width: 40%;
+    height: 15%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .notActive{
+    background-color: rgb(144, 144, 224);
+    height: 80%;
+    width: 40%;
+    border: rgb(170, 170, 234) solid ;
+    border-radius: 10px;
+    color: rgb(239, 239, 239);
+   
+    cursor: not-allowed;
+   pointer-events: none;
+
+  }
+  .homeLink{
+    background-color: rgb(111, 111, 230);
+    width: 10%;
+    height: 10%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(239, 239, 239);
+  border-radius: 5px;
+  }
+  .active{
+    background-color: rgb(111, 111, 230);
+    height: 80%;
+    width: 40%;
+    border: rgb(170, 170, 234) solid ;
+    border-radius: 10px;
+    color: rgb(239, 239, 239);
+  }
+  .footer{
+    background-color: rgb(34, 34, 67);
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(239, 239, 239);
+  }

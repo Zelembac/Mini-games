@@ -50,14 +50,15 @@ export default function memoryGame() {
     console.log("inportant" + rndArray.length);
     if (brr === rndArray.length) {
       if (brr >= board.length / 2) {
-        if (board.length == 9) {
-          setBoard([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]);
-        } else if (board.length == 16) {
-          setBoard([
-            0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18,
-            19, 20, 21, 22, 23, 24,
-          ]);
+        let lenght = board.length;
+        let root = Math.sqrt(lenght);
+        root += 1;
+        let newN = Math.pow(root, 2);
+        let newArray = [];
+        for (let i = 0; i < newN; i++) {
+          newArray.push(i);
         }
+        setBoard(newArray);
 
         getRnd();
         reset();
@@ -73,7 +74,7 @@ export default function memoryGame() {
 
   function reset() {
     setBr(0);
-    setShow(!show);
+    setShow(true);
     setClicked([]);
   }
 
@@ -95,7 +96,7 @@ export default function memoryGame() {
     setStep(0);
   }
   function startGuessing() {
-    setShow(!show);
+    setShow(false);
   }
   return (
     <>
@@ -109,15 +110,19 @@ export default function memoryGame() {
           <div className={styles.board}>
             {board.map((element) => {
               let id = rndArray;
+              let size = Math.floor(100 / Math.sqrt(board.length)) - 2;
 
               return (
                 <div
                   style={
-                    board.length < 10
-                      ? { height: "30%", width: "30%" }
-                      : board.length > 16
-                      ? { height: "18%", width: "18%" }
-                      : {}
+                    rndArray.length != 0 && show != true
+                      ? { height: `${size}%`, width: `${size}%` }
+                      : {
+                          height: `${size}%`,
+                          width: `${size}%`,
+                          cursor: "not-allowed",
+                          pointerEvents: "none",
+                        }
                   }
                   onClick={(e) => check(e)}
                   className={
@@ -145,7 +150,11 @@ export default function memoryGame() {
             </button>
             <button
               onClick={startGuessing}
-              className={br == 0 ? styles.active : styles.notActive}
+              className={
+                br == 0 && rndArray.length != 0
+                  ? styles.active
+                  : styles.notActive
+              }
             >
               Start guessing
             </button>

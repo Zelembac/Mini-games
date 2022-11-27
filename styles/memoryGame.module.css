@@ -40,8 +40,7 @@
   }
   .chosenShow{
     background-color: rgb(239, 239, 251);
-    width: 22%;
-    height: 22%;
+    
     margin: 1%;
     border: solid rgb(239, 239, 251) 2px;
     color: rgb(239, 239, 251);
@@ -51,8 +50,7 @@
   }
   .chosenDontShow{
     background-color:  rgb(142, 142, 235);
-    width: 22%;
-    height: 22%;
+   
     margin: 1%;
     border: solid rgb(239, 239, 251) 2px;
     color: rgb(142, 142, 235);
@@ -60,8 +58,7 @@
   }
   .notChose{
     background-color:rgb(142, 142, 235) ;
-    width: 22%;
-    height: 22%;
+    
     margin: 1%;
     border: solid rgb(239, 239, 251) 2px;
     color: rgb(142, 142, 235);

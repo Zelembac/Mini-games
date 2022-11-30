@@ -82,14 +82,17 @@ export default function memoryGame() {
     let brL = [...board].length;
     console.log(brL);
     let lenght = rndArray.length;
-    let niz = [...rndArray];
-    while (niz.length === lenght) {
+    let niz = [];
+
+    for (let i = 0; i < lenght + 1; i++) {
       let rnd = Math.floor(Math.random() * brL);
       if (niz.indexOf(rnd) === -1) {
         niz.push(rnd);
-        setRndArray(niz);
+      } else {
+        i -= 1;
       }
     }
+    setRndArray(niz);
   }
   function getStarted() {
     getRnd();
